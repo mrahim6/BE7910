@@ -92,4 +92,8 @@ final_df = df.merge(geographic_df, right_on = 'structure_id', right_on='structur
 final_df.to_csv('df_geographic_attributes.csv', index=False)
 
 
+#sample script
+
+final_df = df.merge(geographic_df, right_on = 'structure_id', right_on='structure_id')
+final_df.to_csv('df_geographic_attributes.csv', index=False)
 
